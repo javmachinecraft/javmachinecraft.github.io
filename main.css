@@ -1,0 +1,134 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 2000;
+  font-size:20px;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('shop.png');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #0099ff;
+}
+/* 0099ff
+0066ff
+0000ff
+*/
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #0000ff;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    height:400px;
+    border: none;
+    padding: 10px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+/*styles JAV logo*/
+#logo {
+	height:50px;
+	width: 527px;
+}
+
+#motto {
+	text-align:center;
+	height:200px;
+	width:100%;
+	background-color:#004853;
+	color:white;
+}
+
+#mottop {
+	font-size:40px;
+	text-transform:50%;
+}
+
+#about {
+	text-align:left;
+	font-size:14px;
+}
